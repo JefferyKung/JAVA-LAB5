@@ -1,0 +1,20 @@
+package Q3;
+import java.util.ArrayList;
+import java.util.List;
+//import car;
+
+import Q3.Lexus;
+
+public class main {
+    public static void main(String[] args) {
+    	
+    	Lexus lexus = new Lexus();
+    	System.out.print(lexus.getYear());
+//    	ArrayList<String> carList = new ArrayList<>();
+    	
+    	Toyata toyota = new Toyota();
+    	System.out.print(toyota.getYear());
+    }
+}
+
+

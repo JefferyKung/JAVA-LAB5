@@ -1,0 +1,15 @@
+package Q3;
+import java.util.ArrayList;
+import java.util.List;
+
+public class main {
+    public static void main(String[] args) {
+    	
+    	System.out.print(Q3.Lexus);
+    	ArrayList<String> carList = new ArrayList<>();
+    	
+    	
+    }
+}
+
+

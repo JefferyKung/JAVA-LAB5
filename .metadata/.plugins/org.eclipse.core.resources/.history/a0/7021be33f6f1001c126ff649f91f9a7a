@@ -1,0 +1,17 @@
+package Q3;
+
+//import car;
+
+public class Lexus extends car {
+   
+	
+	
+	@Override
+	public String toString() {
+		return "Lexus [getMake()=" + getMake() + ", getModel()=" + getModel() + ", getYear()=" + getYear()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+
+	
+}

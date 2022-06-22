@@ -1,0 +1,26 @@
+package Q3;
+import car;
+
+public class Toyota extends car {
+
+	public Toyota() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Toyota(String make, String model, int year) {
+		super("Japan", "RAV4", 2000);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Toyota [getMake()=" + getMake() + ", getModel()=" + getModel() + ", getYear()=" + getYear()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+   
+	
+
+	}
+

@@ -1,0 +1,25 @@
+package Q3;
+
+//import car;
+
+public class Lexus extends car {
+   
+	
+	public Lexus() {
+		super();
+	}
+	
+	public Lexus("Germany","M3",2019) {
+		super(make,model,year);
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Lexus [getMake()=" + getMake() + ", getModel()=" + getModel() + ", getYear()=" + getYear()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+
+	
+}

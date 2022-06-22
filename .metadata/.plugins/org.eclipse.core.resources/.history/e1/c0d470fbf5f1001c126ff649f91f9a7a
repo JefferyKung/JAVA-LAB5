@@ -1,0 +1,25 @@
+package Q3;
+import java.util.ArrayList;
+import java.util.List;
+
+public class main {
+    public static void main(String[] args) {
+    	
+    	
+    	ArrayList<String> carList = new ArrayList<>();
+    	
+    	
+    }
+}
+
+//
+//
+//
+//public class Lexus extends car {
+//	
+//	
+//	public Lexus() {
+//		super();
+//	}
+//}
+

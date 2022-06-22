@@ -1,0 +1,18 @@
+package Q3;
+
+import car;
+
+public class Lexus extends car {
+   
+	
+	public Lexus(String make, String model, int year) {
+		super("Germany", "M5", 2022);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	
+
+
+	
+}
